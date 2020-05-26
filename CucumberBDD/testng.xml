@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BDD Test Suite" verbose="2" >
+    <test name="Free CRM Test" preserve-order="true">
+        <classes>
+            <class name="C:\\Users\\SwapnilN3\\IdeaProjects\\CucumberBDD\\src\\main\\java\\com\\qa\\runner\\TestRunner.java"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,396 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-25T12:43:11.014Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.StepDefinations.DealStepDefination.User_is_on_login_page()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "CRM application login with valid username and valid password",
+        "description": "",
+        "id": "crm-application-login-functionality;crm-application-login-with-valid-username-and-valid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.StepDefinations.DealStepDefination.close_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 51974000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user opens browser",
+            "match": {
+              "location": "com.qa.StepDefinations.LoginStepDefination.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 807000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.qa.StepDefinations.LoginStepDefination.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4362000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters valid username and valid password and clicks on Login button",
+            "match": {
+              "location": "com.qa.StepDefinations.LoginStepDefination.user_enters_valid_username_and_valid_password_and_clicks_on_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5527000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "homepage gets displayed",
+            "match": {
+              "location": "com.qa.StepDefinations.LoginStepDefination.homepage_gets_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 199000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify username",
+            "match": {
+              "location": "com.qa.StepDefinations.LoginStepDefination.verify_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3311000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify homepage tab displayed",
+            "match": {
+              "location": "com.qa.StepDefinations.LoginStepDefination.verify_homepage_tab_displayed()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@LoginTest"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@ValidLogin"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-25T12:44:17.721Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.StepDefinations.DealStepDefination.User_is_on_login_page()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "CRM application login with invalid credentials",
+        "description": "",
+        "id": "crm-application-login-functionality;crm-application-login-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.StepDefinations.DealStepDefination.close_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 30154000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User opens browser",
+            "match": {
+              "location": "com.qa.StepDefinations.InvalidLoginStepDefination.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 100000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.qa.StepDefinations.LoginStepDefination.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3388000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters invalid \"swapnilnarvekar2@gmail.com\" and invalid \"asd\" and clicks on Login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"swapnilnarvekar2@gmail.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"asd\"",
+                  "offset": 61
+                }
+              ],
+              "location": "com.qa.StepDefinations.InvalidLoginStepDefination.user_enters_invalid_and_invalid_and_clicks_on_Login_button(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user gets invalid login error message",
+            "match": {
+              "location": "com.qa.StepDefinations.InvalidLoginStepDefination.user_gets_invalid_login_error_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12404000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "close the broswer",
+            "match": {
+              "location": "com.qa.StepDefinations.InvalidLoginStepDefination.close_the_broswer()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@LoginTest"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@InvalidLogin"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-25T12:45:03.840Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.StepDefinations.DealStepDefination.User_is_on_login_page()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "CRM application login with invalid credentials",
+        "description": "",
+        "id": "crm-application-login-functionality;crm-application-login-with-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.StepDefinations.DealStepDefination.close_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21017000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User opens browser",
+            "match": {
+              "location": "com.qa.StepDefinations.InvalidLoginStepDefination.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.qa.StepDefinations.LoginStepDefination.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3423000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters invalid \"swap@gmail.com\" and invalid \"Swapnil@5895\" and clicks on Login button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"swap@gmail.com\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"Swapnil@5895\"",
+                  "offset": 49
+                }
+              ],
+              "location": "com.qa.StepDefinations.InvalidLoginStepDefination.user_enters_invalid_and_invalid_and_clicks_on_Login_button(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user gets invalid login error message",
+            "match": {
+              "location": "com.qa.StepDefinations.InvalidLoginStepDefination.user_gets_invalid_login_error_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8991000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "close the broswer",
+            "match": {
+              "location": "com.qa.StepDefinations.InvalidLoginStepDefination.close_the_broswer()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@LoginTest"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@InvalidLogin"
+          }
+        ]
+      }
+    ],
+    "name": "CRM Application login functionality",
+    "description": "",
+    "id": "crm-application-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/com/qa/Features/Login.feature",
+    "tags": [
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 13
+        }
+      },
+      {
+        "name": "@LoginTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 20
+        }
+      }
+    ]
+  }
+]
