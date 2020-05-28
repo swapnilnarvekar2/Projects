@@ -171,9 +171,9 @@
                 <goal>generate</goal>
               </goals>
               <configuration>
-                <projectName>CucumberWebGui</projectName>
-                <outputDirectory>C:\Users\SwapnilN3\IdeaProjects\CucumberBDD\Json_Reports</outputDirectory>
-                <cucumberOutput>C:\Users\SwapnilN3\IdeaProjects\CucumberBDD\Json_Reports\Cucumber.json</cucumberOutput>
+                <projectName>CucumberBDD</projectName>
+                <outputDirectory>C:\Users\SwapnilN3\git\Projects\CucumberBDD\Json_Reports</outputDirectory>
+                <cucumberOutput>C:\Users\SwapnilN3\git\Projects\CucumberBDD\Json_Reports\Cucumber.json</cucumberOutput>
               </configuration>
             </execution>
           </executions>

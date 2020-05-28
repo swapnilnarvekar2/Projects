@@ -3,12 +3,349 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-05-25T12:43:11.014Z",
+        "start_timestamp": "2020-05-28T11:36:27.085Z",
         "before": [
           {
             "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.qa.StepDefinations.DealStepDefination.User_is_on_login_page()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Navigating to deals page",
+        "description": "",
+        "id": "creating-deals-functionality-in-crm-application;navigating-to-deals-page",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.qa.StepDefinations.DealStepDefination.close_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
               "duration": 1000000,
-              "status": "passed"
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User is on login page",
+            "match": {
+              "location": "com.qa.StepDefinations.DealStepDefination.User_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user enters valid username and valid password",
+            "match": {
+              "location": "com.qa.StepDefinations.DealStepDefination.user_enters_valid_username_and_valid_password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "swapnilnarvekar2@gmail.com",
+                  "Swapnil@5895"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "clicks on Login button",
+            "match": {
+              "location": "com.qa.StepDefinations.DealStepDefination.clicks_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user gets logged in and populated with username",
+            "match": {
+              "location": "com.qa.StepDefinations.DealStepDefination.user_gets_logged_in_and_populated_with_username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user clicks on Deals tab",
+            "match": {
+              "location": "com.qa.StepDefinations.DealStepDefination.user_clicks_on_Deals_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user get navigated to deals page",
+            "match": {
+              "location": "com.qa.StepDefinations.DealStepDefination.user_get_navigated_to_deals_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "close the browser",
+            "match": {
+              "location": "com.qa.StepDefinations.DealStepDefination.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@DealTest"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-05-28T11:36:27.211Z",
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.qa.StepDefinations.DealStepDefination.User_is_on_login_page()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Create deal in CRM Application",
+        "description": "",
+        "id": "creating-deals-functionality-in-crm-application;create-deal-in-crm-application",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.qa.StepDefinations.DealStepDefination.close_the_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User is on login page",
+            "match": {
+              "location": "com.qa.StepDefinations.DealStepDefination.User_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user enters valid username and valid password",
+            "match": {
+              "location": "com.qa.StepDefinations.DealStepDefination.user_enters_valid_username_and_valid_password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "swapnilnarvekar2@gmail.com",
+                  "Swapnil@5895"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "clicks on Login button",
+            "match": {
+              "location": "com.qa.StepDefinations.DealStepDefination.clicks_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user gets logged in and populated with username",
+            "match": {
+              "location": "com.qa.StepDefinations.DealStepDefination.user_gets_logged_in_and_populated_with_username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user navigates to deals page by clcking on deals tab",
+            "match": {
+              "location": "com.qa.StepDefinations.DealStepDefination.user_navigates_to_deals_page_by_clcking_on_deals_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user clicks on New button to create new deal",
+            "match": {
+              "location": "com.qa.StepDefinations.DealStepDefination.user_clicks_on_New_button_to_create_new_deal()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "fill deal details and clicks on Save button",
+            "match": {
+              "location": "com.qa.StepDefinations.DealStepDefination.fill_deal_details_and_clicks_on_Save_button(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "TestDeal",
+                  "2000",
+                  "New"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "verify deals gets created on deals dashboard page",
+            "match": {
+              "location": "com.qa.StepDefinations.DealStepDefination.verify_deals_gets_created_on_deals_dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "close the browser",
+            "match": {
+              "location": "com.qa.StepDefinations.DealStepDefination.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@DealTest"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Creating deals functionality in CRM Application",
+    "description": "",
+    "id": "creating-deals-functionality-in-crm-application",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/com/qa/Features/CreateDeal.feature",
+    "tags": [
+      {
+        "name": "@Smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      },
+      {
+        "name": "@DealTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 20
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-28T11:36:27.227Z",
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
             },
             "match": {
               "location": "com.qa.StepDefinations.DealStepDefination.User_is_on_login_page()"
@@ -22,8 +359,7 @@
         "after": [
           {
             "result": {
-              "duration": 1000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "match": {
               "location": "com.qa.StepDefinations.DealStepDefination.close_the_browser()"
@@ -35,8 +371,7 @@
         "steps": [
           {
             "result": {
-              "duration": 51974000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 6,
             "name": "user opens browser",
@@ -47,8 +382,7 @@
           },
           {
             "result": {
-              "duration": 807000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 7,
             "name": "user is on login page",
@@ -59,8 +393,8 @@
           },
           {
             "result": {
-              "duration": 4362000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 8,
             "name": "user enters valid username and valid password and clicks on Login button",
@@ -71,8 +405,8 @@
           },
           {
             "result": {
-              "duration": 5527000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 9,
             "name": "homepage gets displayed",
@@ -83,8 +417,8 @@
           },
           {
             "result": {
-              "duration": 199000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 10,
             "name": "verify username",
@@ -95,8 +429,8 @@
           },
           {
             "result": {
-              "duration": 3311000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 11,
             "name": "verify homepage tab displayed",
@@ -125,11 +459,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-05-25T12:44:17.721Z",
+        "start_timestamp": "2020-05-28T11:36:27.246Z",
         "before": [
           {
             "result": {
-              "status": "passed"
+              "status": "skipped"
             },
             "match": {
               "location": "com.qa.StepDefinations.DealStepDefination.User_is_on_login_page()"
@@ -143,7 +477,7 @@
         "after": [
           {
             "result": {
-              "status": "passed"
+              "status": "skipped"
             },
             "match": {
               "location": "com.qa.StepDefinations.DealStepDefination.close_the_browser()"
@@ -155,8 +489,8 @@
         "steps": [
           {
             "result": {
-              "duration": 30154000000,
-              "status": "passed"
+              "duration": 2000000,
+              "status": "skipped"
             },
             "line": 15,
             "name": "User opens browser",
@@ -167,8 +501,7 @@
           },
           {
             "result": {
-              "duration": 100000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
             "name": "user is on login page",
@@ -179,8 +512,8 @@
           },
           {
             "result": {
-              "duration": 3388000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 17,
             "name": "user enters invalid \"swapnilnarvekar2@gmail.com\" and invalid \"asd\" and clicks on Login button",
@@ -201,8 +534,8 @@
           },
           {
             "result": {
-              "duration": 51000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 18,
             "name": "user gets invalid login error message",
@@ -213,8 +546,7 @@
           },
           {
             "result": {
-              "duration": 12404000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 19,
             "name": "close the broswer",
@@ -243,11 +575,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-05-25T12:45:03.840Z",
+        "start_timestamp": "2020-05-28T11:36:27.269Z",
         "before": [
           {
             "result": {
-              "status": "passed"
+              "status": "skipped"
             },
             "match": {
               "location": "com.qa.StepDefinations.DealStepDefination.User_is_on_login_page()"
@@ -261,7 +593,7 @@
         "after": [
           {
             "result": {
-              "status": "passed"
+              "status": "skipped"
             },
             "match": {
               "location": "com.qa.StepDefinations.DealStepDefination.close_the_browser()"
@@ -273,8 +605,7 @@
         "steps": [
           {
             "result": {
-              "duration": 21017000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 15,
             "name": "User opens browser",
@@ -285,8 +616,7 @@
           },
           {
             "result": {
-              "duration": 7000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 16,
             "name": "user is on login page",
@@ -297,8 +627,8 @@
           },
           {
             "result": {
-              "duration": 3423000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 17,
             "name": "user enters invalid \"swap@gmail.com\" and invalid \"Swapnil@5895\" and clicks on Login button",
@@ -319,8 +649,7 @@
           },
           {
             "result": {
-              "duration": 24000000,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 18,
             "name": "user gets invalid login error message",
@@ -331,8 +660,8 @@
           },
           {
             "result": {
-              "duration": 8991000000,
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
             "line": 19,
             "name": "close the broswer",

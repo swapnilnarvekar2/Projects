@@ -1,28 +1,50 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="147.709">
-<testcase classname="CRM Application login functionality" name="CRM application login with valid username and valid password" time="66.355">
-<system-out><![CDATA[Given user opens browser....................................................passed
-Then user is on login page..................................................passed
-When user enters valid username and valid password and clicks on Login button.passed
-Then homepage gets displayed................................................passed
-And verify username.........................................................passed
-And verify homepage tab displayed...........................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="0.995">
+<testcase classname="Creating deals functionality in CRM Application" name="Navigating to deals page" time="0.095">
+<system-out><![CDATA[Given User is on login page.................................................skipped
+When user enters valid username and valid password..........................skipped
+And clicks on Login button..................................................skipped
+Then user gets logged in and populated with username........................skipped
+When user clicks on Deals tab...............................................skipped
+Then user get navigated to deals page.......................................skipped
+Then close the browser......................................................skipped
 ]]></system-out>
 </testcase>
-<testcase classname="CRM Application login functionality" name="CRM application login with invalid credentials" time="46.115">
-<system-out><![CDATA[Given User opens browser....................................................passed
-Then user is on login page..................................................passed
-When user enters invalid "swapnilnarvekar2@gmail.com" and invalid "asd" and clicks on Login button.passed
-Then user gets invalid login error message..................................passed
-And close the broswer.......................................................passed
+<testcase classname="Creating deals functionality in CRM Application" name="Create deal in CRM Application" time="0.011">
+<system-out><![CDATA[Given User is on login page.................................................skipped
+When user enters valid username and valid password..........................skipped
+And clicks on Login button..................................................skipped
+Then user gets logged in and populated with username........................skipped
+When user navigates to deals page by clcking on deals tab...................skipped
+Then user clicks on New button to create new deal...........................skipped
+And fill deal details and clicks on Save button.............................skipped
+Then verify deals gets created on deals dashboard page......................skipped
+Then close the browser......................................................skipped
 ]]></system-out>
 </testcase>
-<testcase classname="CRM Application login functionality" name="CRM application login with invalid credentials 2" time="33.468">
-<system-out><![CDATA[Given User opens browser....................................................passed
-Then user is on login page..................................................passed
-When user enters invalid "swap@gmail.com" and invalid "Swapnil@5895" and clicks on Login button.passed
-Then user gets invalid login error message..................................passed
-And close the broswer.......................................................passed
+<testcase classname="CRM Application login functionality" name="CRM application login with valid username and valid password" time="0.013">
+<system-out><![CDATA[Given user opens browser....................................................skipped
+Then user is on login page..................................................skipped
+When user enters valid username and valid password and clicks on Login button.skipped
+Then homepage gets displayed................................................skipped
+And verify username.........................................................skipped
+And verify homepage tab displayed...........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="CRM Application login functionality" name="CRM application login with invalid credentials" time="0.015">
+<system-out><![CDATA[Given User opens browser....................................................skipped
+Then user is on login page..................................................skipped
+When user enters invalid "swapnilnarvekar2@gmail.com" and invalid "asd" and clicks on Login button.skipped
+Then user gets invalid login error message..................................skipped
+And close the broswer.......................................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="CRM Application login functionality" name="CRM application login with invalid credentials 2" time="0.008">
+<system-out><![CDATA[Given User opens browser....................................................skipped
+Then user is on login page..................................................skipped
+When user enters invalid "swap@gmail.com" and invalid "Swapnil@5895" and clicks on Login button.skipped
+Then user gets invalid login error message..................................skipped
+And close the broswer.......................................................skipped
 ]]></system-out>
 </testcase>
 </testsuite>
